@@ -50,8 +50,8 @@ while 4==4 :
             break             
     elif choice == 2:
         if cipher_text1=="":
-            print("| Cipher text :",cipher_text1)
-            print("| Plain text  :",decrypt_text(cipher_text1,shift_value),"\n")  
+            print("| No message to decrypt.")
+            print("| Please choose 1 to encrypt first."\n")  
         else:
             print("| Cipher text :",cipher_text1)
             print("| Plain text  :",decrypt_text(cipher_text1,shift_value),"\n")
